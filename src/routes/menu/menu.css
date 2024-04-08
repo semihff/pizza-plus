@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Quicksand:wght@300..700&family=Tangerine:wght@400;700&display=swap");
+.menu-wrapper {
+  position: relative;
+}
+.menu-container {
+  padding-top: 8.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #151515;
+  height: 100vh;
+}
+
+.menu-container .menu-name h1 {
+  font-size: 6rem;
+  font-family: "Kaushan Script", cursive;
+  color: #ff8c42;
+  user-select: none;
+  font-weight: 500;
+}
+.menu-container main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+  gap: 1rem;
+}
+.menu-container main .half-pizza {
+  width: 300px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.menu-container main .prize {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.menu-container main .prize .pizza {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.menu-container main .prize .pizza img {
+  width: 300px;
+}
