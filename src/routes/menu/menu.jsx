@@ -10,7 +10,7 @@ const Menu = () => {
     prize: "289",
     contents:
       "Mozzarella peyniri, domates sosu, sucuk, mısır, kırmızıbiber, yeşil biber",
-    img: "/public/images/salsiccia.png",
+    img: "/images/salsiccia.png",
   });
   const changePizza = (id) => {
     const selectedPizzaId = products.find((pizza) => pizza.id === id);

@@ -23,7 +23,7 @@ export const products = [
     prize: "289",
     contents:
       "Mozzarella peyniri, domates sosu, sucuk, mısır, kırmızıbiber, yeşil biber",
-    img: "/public/images/salsiccia.png",
+    img: "/images/salsiccia.png",
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ export const products = [
     prize: "195",
     contents:
       "Mozzarella peyniri, domates sosu, çeri domates, parmesan peyniri, fesleğen",
-    img: "/public/images/margherita.png",
+    img: "/images/margherita.png",
   },
   {
     id: 3,
@@ -39,28 +39,28 @@ export const products = [
     prize: "318",
     contents:
       "Mozzarella peyniri, beyaz sos, taze mozzarella, cheddar peyniri, beyaz peynir, parmesan peyniri, fesleğen",
-    img: "/public/images/formaggi.png",
+    img: "/images/formaggi.png",
   },
   {
     id: 4,
     name: "Al Funghi Pizza",
     prize: "242",
     contents: "Mozzarella peyniri, domates sosu, mantar, sarımsaklı zeytinyağı",
-    img: "/public/images/alfunghi.png",
+    img: "/images/alfunghi.png",
   },
   {
     id: 5,
     name: "Mediterranea Pizza",
     prize: "263",
     contents: "Mozzarella peyniri, domates sosu, siyah zeytin, fesleğen, kekik",
-    img: "/public/images/mediterranea.png",
+    img: "/images/mediterranea.png",
   },
   {
     id: 6,
     name: "Tonna Cipolla Pizza",
     prize: "195",
     contents: "Mozzarella peyniri, domates sosu, ton balığı, mor soğan, mısır",
-    img: "/public/images/tonnacipo.png",
+    img: "/images/tonnacipo.png",
   },
   {
     id: 7,
@@ -68,7 +68,7 @@ export const products = [
     prize: "318",
     contents:
       "Mozzarella peyniri, domates sosu, sucuk, jambon, siyah zeytin, mantar, mısır, yeşil biber, kırmızı biber, parmesan peyniri",
-    img: "/public/images/mixed.png",
+    img: "/images/mixed.png",
   },
   {
     id: 8,
@@ -76,7 +76,7 @@ export const products = [
     prize: "242",
     contents:
       "Mozzarella peyniri, domates sosu, taze mozzarella peyniri, parmesan peyniri, fesleğen",
-    img: "/public/images/bufala.png",
+    img: "/images/bufala.png",
   },
   {
     id: 9,
@@ -84,7 +84,7 @@ export const products = [
     prize: "263",
     contents:
       "Mozzarella peyniri, domates sosu, tavuk parçaları, mantar, barbekü sos",
-    img: "/public/images/chickenbbq.png",
+    img: "/images/chickenbbq.png",
   },
   {
     id: 10,
@@ -92,6 +92,6 @@ export const products = [
     prize: "195",
     contents:
       "Mozzarella peyniri, domates sosu, yeşil biber, kırmızı biber, mantar, közlenmiş patlıcan, parmesan peyniri, sarımsaklı zeytinyağı",
-    img: "/public/images/vegetarian.png",
+    img: "/images/vegetarian.png",
   },
 ];
