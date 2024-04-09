@@ -38,7 +38,7 @@ const Contact = () => {
         <div className="map">
           <h1>Konumumuz</h1>
           <div className="map-wrapper">
-            <img className="slice" src="/public/images/slice.png" alt="" />
+            <img className="slice" src="/images/slice.png" alt="" />
             <div className="google-map">
               <iframe
                 width="100%"

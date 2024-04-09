@@ -12,7 +12,7 @@ const Home = () => {
           <span>Muhammed Demirel</span>
         </section>
         <aside>
-          <img className="pizza" src="/public/images/pizza.png" alt="" />
+          <img className="pizza" src="/images/pizza.png" alt="" />
         </aside>
       </main>
     </div>
