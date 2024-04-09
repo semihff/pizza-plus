@@ -1,18 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Quicksand:wght@300..700&family=Tangerine:wght@400;700&display=swap");
-.menu-wrapper {
-  position: relative;
-}
 .menu-container {
-  padding-top: 8.1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #151515;
-  height: 100vh;
+  max-width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.menu-container .menu-name h1 {
+.menu-name h1 {
   font-size: 6rem;
   font-family: "Kaushan Script", cursive;
   color: #ff8c42;
@@ -20,32 +16,75 @@
   font-weight: 500;
 }
 .menu-container main {
+  padding-top: 0;
+  justify-content: space-around;
   width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  position: relative;
-  gap: 1rem;
 }
-.menu-container main .half-pizza {
-  width: 300px;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-.menu-container main .prize {
+
+.prize {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding-top: 2rem;
+  flex: 3;
+}
+.prize h1 {
+  font-size: 3rem;
+  color: #ffddc8;
+  font-family: "Kosugi", sans-serif;
+}
+.pizza-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   gap: 1rem;
 }
-.menu-container main .prize .pizza {
+.pizza {
   align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 1rem;
+  font-family: "Kosugi", sans-serif;
+  color: #ffddc8;
+  gap: 2rem;
+  cursor: pointer;
 }
-.menu-container main .prize .pizza img {
-  width: 300px;
+.selected-pizza {
+  color: #ff8c42;
+}
+.seprator {
+  flex: 2;
+  height: 1rem;
+  border-bottom: 1px dashed #ffddc8;
+}
+.pizza-name {
+  flex: 2;
+  font-size: 2rem;
+}
+.pizza-prize {
+  flex: 1;
+  font-size: 2rem;
+}
+
+.pizza-details {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 2rem;
+  font-family: "Kosugi", sans-serif;
+  color: #ffddc8;
+}
+.selected-img {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+.pizza-details img {
+  width: 400px;
 }
